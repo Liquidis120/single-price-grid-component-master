@@ -1,0 +1,141 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.price-grid-container {
+    background-color: #fff;
+    min-width: 600px;
+    display: grid;
+    grid-template-rows: 210px 250px;   
+    border-radius: 5px;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 5px 5px;
+}
+
+.join-community-card {
+    padding: 35px;
+    font-family: "Karla", sans-serif;
+}
+
+.join-community-card h1 {
+    color: hsl(179, 62%, 43%);;
+}
+
+.join-community-card h3 {
+    color: hsl(71, 73%, 54%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.join-community-card p{
+    color: #c2c6cd;
+    margin: 3px;
+    line-height: 1.5em;
+}
+
+.subscription-card {
+    margin-left: 35px;
+}
+
+
+.subscription-card h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.price {
+    font-size: 30px;
+    margin-right: 0.8rem;
+    color: #fff;
+}
+
+.price-text {
+    color: #c2c6cd;
+}
+
+.subscription-card p {
+    color:hsl(204, 43%, 93%);
+    margin-top: 1.3rem;
+    margin-bottom: 1.1rem;
+}
+
+.button {
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    box-shadow: 0 3px 3px hsl(177, 15%, 24%);
+}
+
+.button-link {
+    color: #fff;
+}
+/* .button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    font-size: 16px;
+    color: #f7f98c;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+} */
+
+.why-us-card {
+    background-color: hsl(180, 37%, 63%);
+    padding-left: 40px;
+    color:hsl(204, 43%, 93%);
+    border-radius: 0 0 5px 0;
+}
+
+.why-us-card h3 {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.why-us-card ul{
+    color: hsl(204, 43%, 93%);
+    line-height: 1.7em;
+    font-size: 12px;
+}
+
+    :root {
+        --font-family: "Karla", sans-serif;
+        --font-size: 16px;
+        --background-color: hsl(204, 43%, 93%);
+        --cyan: hsl(179, 62%, 43%);
+        --bright-yellow:  hsl(71, 73%, 54%);
+        --light-gray: hsl(204, 43%, 93%);
+        --grayish-blue: hsl(218, 22%, 67%);
+    }
+
