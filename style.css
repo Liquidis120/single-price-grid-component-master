@@ -1,9 +1,4 @@
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: "Karla", sans-serif;
@@ -19,11 +14,14 @@ body {
 
 .price-grid-container {
     background-color: #fff;
-    min-width: 600px;
+    min-width: 400px;
     display: grid;
     grid-template-rows: 210px 250px;   
     border-radius: 5px;
+    margin-left: 1rem;
+    margin-right: 5rem;
 }
+
 
 .sub-container {
     display: grid;
@@ -33,7 +31,7 @@ body {
 }
 
 .join-community-card {
-    padding: 35px;
+    padding: 30px;
     font-family: "Karla", sans-serif;
 }
 
@@ -50,6 +48,7 @@ body {
 .join-community-card p{
     color: #c2c6cd;
     margin: 3px;
+    margin-bottom: 5px;
     line-height: 1.5em;
 }
 
@@ -93,6 +92,7 @@ body {
     cursor: pointer;
     padding: 0.7rem 1.2rem;
     box-shadow: 0 3px 3px hsl(177, 15%, 24%);
+    margin-bottom: 1.2rem;
 }
 
 .button-link {
@@ -127,6 +127,22 @@ body {
     color: hsl(204, 43%, 93%);
     line-height: 1.7em;
     font-size: 12px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        min-height: 82vh;
+    }
+
+    .container{
+        width: 400px;
+        grid-template-rows: 250px 250px
+    }
+
+    .sub-container{
+        grid-template-columns: 1fr;
+    }
 }
 
     :root {
